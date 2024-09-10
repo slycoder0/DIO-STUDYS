@@ -1,0 +1,86 @@
+.loginContent {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #0000006f;
+  width: 300px;
+  height: auto;
+  border-radius: 10px;
+  color: white;
+  box-shadow: 10px 20px 40px rgba(0, 0, 0, 0.592);
+  border: 1px solid greenyellow;
+}
+.loginContent h1 {
+  text-align: center;
+  margin-block: 1.256rem;
+}
+.light-mode {
+  --text-color: black;
+}
+.loginContent.dark-mode {
+  color: var(--text-color);
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  flex-wrap: nowrap;
+}
+form label {
+  text-align: left;
+  margin-top: 5px;
+  color: greenyellow;
+  font-weight: bold;
+  font-size: 0.6em;
+}
+form input {
+  margin-block: 5px;
+  border: none;
+  border-radius: 3px;
+  padding: 5px 0.625rem;
+  font-size: 0.6em;
+  border: 1px solid greenyellow;
+}
+
+.forgot-my-password {
+  font-size: 0.6em;
+  text-decoration: none;
+  color: greenyellow;
+  cursor: pointer;
+  font-weight: bold;
+  margin-top: 0.625rem;
+
+  transition: color 0.4s ease-in-out;
+}
+
+.forgot-my-password:hover {
+  color: greenyellow;
+}
+
+form .btns {
+  display: flex;
+  gap: 1rem;
+  margin-block: 1rem;
+}
+form button {
+  border: none;
+  background-color: rgba(172, 255, 47, 0.229);
+  padding: 0.4rem;
+  margin-block: 5px;
+  color: white;
+  border-radius: 7px;
+  width: 100px;
+  font-weight: bold;
+  transition: transform 0.5s ease-in-out, box-shadow 0.5s ease-in-out,
+    color 0.5s ease-in-out, border 0.5s ease-in-out;
+  border: 1px solid greenyellow;
+  cursor: pointer;
+}
+form button:hover {
+  background-color: greenyellow;
+  transform: translateY(-5px);
+  box-shadow: 0px 0px 10px rgba(54, 186, 45, 0.592);
+  color: black;
+  border: 1px solid black;
+}

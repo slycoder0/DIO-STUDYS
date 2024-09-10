@@ -1,0 +1,25 @@
+<router-outlet />
+<body>
+  <div class="dark-light-content">
+    <button id="btndark" class="btn-dark-light" (click)="toggleTheme()">
+      NIGHT
+    </button>
+  </div>
+  <div class="loginContent" id="loginContent">
+    <h1>Login</h1>
+
+    <div id="forms">
+      <form action="submit">
+        <label for="Usuario">Usuario</label>
+        <input type="text" placeholder="Digite seu Usuario" />
+        <label for="password">Password</label>
+        <input type="password" placeholder="Digite sua Senha." />
+        <a href="#" class="forgot-my-password">Esqueci a senha</a>
+        <div class="btns">
+          <button>Login</button>
+          <button>Register</button>
+        </div>
+      </form>
+    </div>
+  </div>
+</body>
